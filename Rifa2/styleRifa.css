@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000; /* Vermelho */
+    font-size: 24px; /* Tamanho maior */
+}
+
+.ticket {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.left-side {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.ticket-info {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Estilo azul e vermelho */
+.ticket-info {
+    background-color: #2196F3; /* Azul */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.ticket-info p {
+    margin: 5px 0;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 10px); /* Adiciona um espaçamento interno para não encostar nas bordas */
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilo do botão salvar */
+input[type="submit"] {
+    background-color: #006eff; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estiliza quando o cursor está em cima do botão */
+input[type="submit"]:hover {
+    background-color: #006eff; /* Verde mais escuro */
+}
